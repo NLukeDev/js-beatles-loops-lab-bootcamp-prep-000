@@ -9,13 +9,13 @@
  }
 
 function johnLennonFacts(facts) {
-  var results = [];
+  var newFacts = [];
   var count = 0;
   while (count < facts.length) {
-    results.push(facts[count] + "!!!");
+    newFacts.push(facts[count] + "!!!");
     count++;
   }
-  return results;
+  return newFacts;
 }
 
 function iLoveTheBeatles (num) {
